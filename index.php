@@ -33,7 +33,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="portfolio.php?">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#training">Resume</a></li>                    
+                <li><a href="#resume">Resume</a></li>                    
                
             </ul>
         </div><!-- /.navbar-collapse -->  
@@ -62,7 +62,11 @@
 			</div>
 			<div data-aos="zoom-out" data-aos-duration="2000" class="col-md-4 text-center">
 				<img src="./img/selfie.jpg" alt="me" class="img-responsive center-block img-circle">
-				<i class="fa fa-facebook-official fa-3x"></i><i class="fa fa-twitter fa-3x"></i><i class="fa fa-instagram fa-3x"></i><i class="fa fa-linkedin fa-3x"></i><i class="fa fa-github fa-3x"></i>
+				<a href="https://www.facebook.com/Jj6225" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+				<a href="" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+				<a href="https://www.instagram.com/justn420" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+				<a href="www.linkedin.com/in/justin-devs" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+				<a href="https://github.com/justin-devs" target="_blank"><i class="fa fa-github fa-2x"></i></a>
 			</div>
 			<div class="col-md-4">
 				<div class="text-left"><h2 class="turqoise">Personal Info:</h2></div>
@@ -121,9 +125,9 @@
 		<div class="row">
 			<p>Do you believe I'd be an asset to your company, like I do? Check out my resume: </p>
 			<form action="index.php?#resume" method="POST">
-				<p  style="color: Green;"><?php echo $cv; ?>	</p>
+				<p  style="color: Green;"><?php echo $cv; ?></p>
 				<div class="col-md-offset-2 col-xs-8 col-md-6 resume"><input id="cv" name="cv" type="email" placeholder="Enter your email" class="form-control white" required></div>
-				<div class="col-xs-4 col-md-2 resume"><button type="submit" class="btn btn-block btn-mine">Email CV</button></div>
+				<div class="col-xs-4 col-sm-4 col-md-4 resume"><button type="submit" class="btn btn-block btn-mine">Email CV</button></div>
 			</form>
 		</div>
 		<div class="row">

@@ -1,11 +1,10 @@
 <?php
    // error_reporting(0);
-	session_start();
 	$datetime = date("Y-m-d H:i:s");
 	$date_today = date("Y-m-d");
 	$today = date("d-m-Y");
     $response = "";
-    $cv ="test";
+    $cv ="";
 	//-- anti-spam--//
 	if(isset($_POST['message'])){
 				    require 'PHPMailerAutoload.php';

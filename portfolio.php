@@ -48,7 +48,7 @@
         <div class="row"><h3>My Projects</h3>
             <div id="main">
                 <div class="demo">
-                    <a href="#" class="item"><img src="img/yummychickens.jpeg" class="main img-responsive"><div class="textmid">YummyChickens</div><div class="overlay"><div class="text">View Project</div></div></a>
+                    <a href="https://www.yummychickens.co.za" target="_blank" class="item"><img src="img/yummychickens.jpeg" class="main img-responsive"><div class="textmid">YummyChickens</div><div class="overlay"><div class="text">View Project</div></div></a>
                      <a href="#" class="item"><img src="img/2.jpeg" class="main img-responsive"><div class="textmid">Cordova</div><div class="overlay"><div class="text">View Project</div></div></a>
                 </div>
             </div>
@@ -57,9 +57,9 @@
     <div id="virsys" class="tab-pane text-center fade">
         <div id="virsys">
                 <div class="demo">
-                    <div class="item"><img src="img/main-image.jpg" class="main img-responsive"><div class="textmid">CSB BodyFusion</div><div class="overlay"><div class="text">View Project</div></div></div>
-                     <a href="#" class="item"><img src="img/dietdr.jpg" class="main img-responsive"><div class="textmid">Diet Doctor</div><div class="overlay"><div class="text">View Project</div></div></a>
-                     <a href="#" class="item"><img src="img/3.jpg" class="main img-responsive"><div class="textmid">Web Architect</div><div class="overlay"><div class="text">View Project</div></div></a>
+                    <a href="http://www.csbbodyfusion.co.za/" target="_blank" class="item"><img src="img/main-image.jpg" class="main img-responsive"><div class="textmid">CSB BodyFusion</div><div class="overlay"><div class="text">View Project</div></div></a>
+                     <a href="https://www.virsys.co.za/clients/dietdoctor.co.za/" class="item"><img src="img/dietdr.jpg" class="main img-responsive"><div class="textmid">Diet Doctor</div><div class="overlay"><div class="text">View Project</div></div></a>
+                     <div class="item"><img src="img/3.jpg" class="main img-responsive"><div class="textmid">Web Architect</div><div class="overlay"><div class="text">Needs Auth</div></div></div>
                 </div>
         </div>
     </div>
