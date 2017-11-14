@@ -1,0 +1,174 @@
+html, body{
+	 width:100%;
+    height: auto;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+	font-family: Trench;
+	font-size: 20px;
+	background-color: #d3d3d3;
+	position: relative;
+
+}
+@font-face {
+	font-family: Trench;
+	src:url('trench.otf');
+}
+
+h1{
+	font-size: 80px;
+}
+
+/* Home */
+#home{
+	min-height: 90vh;
+	width: 100vw;
+	padding: 40px;
+	background: url('../img/homebg.jpg') no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+}
+#home h1{
+	color: rgba(255, 255, 255, 0.8);
+
+}
+
+/* About */
+#about i{
+	padding: 40px 5px;
+}
+
+
+/* Portfolio */
+#portfolio{
+	width: 100vw;
+	height: 40vh;
+	background: url(../img/services.jpeg) no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background-color: #30bf9e !important;
+}
+#portfolio .btn{
+	margin: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	background-image: linear-gradient(to right, #d3d3d3 0%, #30bf9e 51%, #d3d3d3 100%);
+}
+#portfolio .btn:hover {
+  background-position: right center;
+  color: black; /* change the direction of the change here */
+}
+#portfolio .text{
+	font-weight: bold;
+	font-size: 1rem;
+	padding: 0 20px; 
+}
+
+
+/* Contact */
+#contact{
+	padding: 40px;
+}
+/* Resume */
+#resume{
+	width: 100vw;
+	min-height: 40vh;
+	padding: 40px;
+	color: white;
+	background: url('../img/training.jpg') no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+}
+.resume{
+	padding: 0;
+}
+#resume h2{
+	color: white;
+}
+
+#resume form input{
+	padding: 2px;
+}
+
+.footer{
+	width: 100vw;
+	max-height: 10vh;	
+}
+
+/* Typography */
+.wrappee{
+	display: table;
+}
+.center{
+	display: table-cell;
+	vertical-align: middle;
+}
+.white{
+	color: white;
+}
+.turqoise{
+	color: #30bf9e;
+}
+
+.pt{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+@media(max-width: 1080px){
+	h1{
+	font-size: 9.5vw;
+	}
+}
+.btn-round-lg{
+border-radius: 22.5px;
+}
+.btn-round{
+border-radius: 17px;
+}
+.btn-round-sm{
+border-radius: 15px;
+}
+.btn-round-xs{
+border-radius: 11px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.space{
+	margin-top: 20px;
+}
+.btn-mine{
+	background-color: #30bf9e;
+	border-color: grey;
+	color: white;
+}
+.btn-mine:hover, .btn-mine:focus, .btn-mine:active, .btn-mine:visited {
+	background:lightgrey;
+	border-color: black;
+	color: black;
+
+}
+.btn-inverted{
+	background:lightgrey;
+	border-color: black;
+	color: black;
+}
+.btn-inverted:hover, .btn-inverted:focus, .btn-inverted:active, .btn-inverted:visited {
+	background-color: #30bf9e;
+	border-color: grey;
+	color: white;	
+
+}
+
+
